@@ -28,18 +28,6 @@ body {
     margin-bottom: 10vh;
 }
 
-video {
-    align-self: center;
-    width: 60%;
-    margin-bottom: 10vh;
-    border-radius: 20px;
-    transition: .1s;
-}
-video:focus-within {
-    transition: .1s;
-    width: 85%;
-}
-
 audio {
     align-self: center;
     color: black;
