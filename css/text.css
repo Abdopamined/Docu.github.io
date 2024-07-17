@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    padding: 20vh 5vh 20vh 5vh ;
+    display: grid;
+    height: 10vh;
+    grid-template-rows: 50px 40px 30px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    background: linear-gradient(0deg, #000000, #1c1c1c67) , url(assets/ice.gif);
+    background-position: bottom;
+    background-size: cover;
+}
+
+h1 {
+    grid-area: 1/3/2/4;
+    font-size: 50px;
+    text-shadow: 0 0 50px #ffffff;
+}
+h2{
+    grid-area: 2/2/3/3;
+}
+h3{
+    grid-area: 2/4/3/5;
+}
+h4{
+    grid-area: 3/1/4/2;
+}
+h5{
+    grid-area: 3/3/4/4;
+}
+h6{
+    grid-area: 3/5/4/6;
+}
+
+.title {
+    align-self: center;
+    justify-self: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+.second {
+    opacity: 50%;
+    font-size: 40px;
+    color: #e8e8e8a1;
+    text-shadow: 0 0 40px #e8e8e8a1;
+}
+
+.third {
+    opacity: 40%;
+    font-size: 30px;
+    color: #e8e8e83f;
+    text-shadow: 0 0 30px #e8e8e83f;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-left: 20%;
+    width: 60%;
+    font-size: 18px;
+    font-family: sora;
+}
+
+.titles {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 50px white;
+    align-self: center;
+}
+
+.bold {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    text-shadow: 0 0 50px white;
+}
+
+hr{
+    width: 60%;
+}
+
+ol {
+    border-radius: 50px;
+    background: linear-gradient(0deg, #000000, #1c1c1cc3) , url(assets/trauma.jpg);
+    background-size: cover;
+}
+
+.home {
+    align-self: center;
+}
+.home button {
+    font-family: "Sora", sans-serif;
+    width: 70px;
+    height: 50px;
+    color: white;
+    background: none;
+    border: 2px  solid #369bed;
+    border-radius: 25px;
+    box-shadow: 0 0 100px #369bed;
+    animation: colorChange 10s infinite;
+    animation-timing-function: linear;
+    transition: 0.2s;
+    margin-top: 10vh;
+    margin-bottom: 20vh;
+}
+
+button:hover {
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+    box-shadow: 0 0 150px;
+    cursor: pointer;
+}
+
+@keyframes colorChange {
+    0% {
+        box-shadow: 0 0 100px #363ced;
+        border-color: #363ced;
+    }
+    10% {
+        box-shadow: 0 0 100px #1295ff;
+        border-color: #1295ff;
+    }
+    20% {
+        box-shadow: 0 0 100px #33ffbe;
+        border-color: #33ffbe;
+    }
+    30% {
+        box-shadow: 0 0 100px #33ff4b;
+        border-color: #33ff4b;
+    }
+    40% {
+        box-shadow: 0 0 100px #b8ff33;
+        border-color: #b8ff33;
+    }
+    50% {
+        box-shadow: 0 0 100px #ffe733;
+        border-color: #ffe733;
+    }
+    60% {
+        box-shadow: 0 0 100px #ff9633;
+        border-color: #ff9633;
+    }
+    70% {
+        box-shadow: 0 0 100px #ff5733;
+        border-color: #ff5733;
+    }
+    80% {
+        box-shadow: 0 0 100px #ff3333;
+        border-color: #ff5733;
+    }
+    90% {
+        box-shadow: 0 0 100px #ff33be;
+        border-color: #ff33be;
+    }
+    100% {
+        box-shadow: 0 0 100px #b336ed;
+        border-color: #b336ed;
+    }
+}

@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+h1 {
+    margin-top: 15vh;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+    margin-bottom: 5vh;
+}
+
+p {
+    color: #dfdfdf;
+    font-family: "Sora", sans-serif;
+    text-align: center;
+    margin-bottom: 15vh;
+}
+
+button {
+    font-family: "Sora", sans-serif;
+    align-self: center;
+    width: 70px;
+    height: 70px;
+    background-color: none;
+    color: white;
+    background: none;
+    border: 2px  solid #369bed;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+    box-shadow: 0 0 100px #369bed;
+    animation: colorChange 10s infinite;
+    animation-timing-function: linear;
+    transition: 0.2s;
+}
+
+@keyframes colorChange {
+    0% {
+        box-shadow: 0 0 100px #363ced;
+        border-color: #363ced;
+    }
+    10% {
+        box-shadow: 0 0 100px #1295ff;
+        border-color: #1295ff;
+    }
+    20% {
+        box-shadow: 0 0 100px #33ffbe;
+        border-color: #33ffbe;
+    }
+    30% {
+        box-shadow: 0 0 100px #33ff4b;
+        border-color: #33ff4b;
+    }
+    40% {
+        box-shadow: 0 0 100px #b8ff33;
+        border-color: #b8ff33;
+    }
+    50% {
+        box-shadow: 0 0 100px #ffe733;
+        border-color: #ffe733;
+    }
+    60% {
+        box-shadow: 0 0 100px #ff9633;
+        border-color: #ff9633;
+    }
+    70% {
+        box-shadow: 0 0 100px #ff5733;
+        border-color: #ff5733;
+    }
+    80% {
+        box-shadow: 0 0 100px #ff3333;
+        border-color: #ff5733;
+    }
+    90% {
+        box-shadow: 0 0 100px #ff33be;
+        border-color: #ff33be;
+    }
+    100% {
+        box-shadow: 0 0 100px #b336ed;
+        border-color: #b336ed;
+    }
+}
+
+button:hover {
+    font-weight: bold;
+    font-size: 14px;
+    transition: 0.2s;
+    box-shadow: 0 0 150px;
+    cursor: pointer;
+}
+
+div {
+    align-self: center;
+    height: 100px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+
+#btnstart {
+    border-radius: 50% 0 0 50%;
+    border-left: 2px solid;
+}
+#btnend {
+    border-radius: 0 50% 50% 0;
+    border-right: 2px solid;
+}

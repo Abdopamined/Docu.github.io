@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/forms.css">
+    <title>FORMS</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            Contact us
+        </div>
+        <div class="form">
+            <form action="/submit_form" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+        
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required><br><br>
+        
+                <label for="birthdate">Birthdate:</label>
+                <input type="date" id="birthdate" name="birthdate" required><br><br>
+        
+                <label for="gender">Gender:</label>
+                <select id="gender" name="gender" required>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select><br><br>
+        
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+                <div>
+                    <input type="submit" value="Submit" class="button">
+                    <input type="reset" value="Reset" class="button">
+    
+                </div>
+            </form>
+            <img src="css/assets/trauma.jpg" alt="">        
+        </div>
+        <a href="index.html" class="home"><button>Home</button></a>
+    </div>
+</body>
+</html>
