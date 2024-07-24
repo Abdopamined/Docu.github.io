@@ -28,6 +28,22 @@ body {
     margin-bottom: 10vh;
 }
 
+.titles {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
+    text-shadow: 0 0 50px white;
+    align-self: center;
+    color: white;
+}
+
+figure figcaption {
+    color: white;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 18px;
+    margin-top: 8px;
+}
+
 audio {
     align-self: center;
     color: black;
@@ -92,6 +108,17 @@ iframe {
     align-self: center;
     margin-bottom: 15vh;
 }
+
+embed {
+    align-self: center;
+    margin: 5vh 0;
+}
+
+object {
+    align-self: center;
+    margin: 5vh 0;
+}
+
 .home {
     align-self: center;
 }
@@ -107,7 +134,7 @@ iframe {
     animation: colorChange 10s infinite;
     animation-timing-function: linear;
     transition: 0.2s;
-    margin-top: 5vh;
+    margin-top: 10vh;
     margin-bottom: 20vh;
 }
 
